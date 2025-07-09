@@ -45,22 +45,32 @@
 
 ## Folder Structure
 
+```bash
 ServioHub/
-  client/ # React frontend
-    public/
-    src/
-      components/
-        context/
-        pages/
-    App.js, index.js
-
-server/ # Node.js backend
-  controllers/
-  models/
-  routes/
-  middleware/
-  config/
-  index.js
+├── client/ # React frontend
+│ ├── public/ # Public assets (favicon, logo, background)
+│ ├── src/
+│ │ ├── components/ # Navbar and reusable UI components
+│ │ ├── context/ # React Context (Auth)
+│ │ ├── pages/ # Login, Dashboard, Register pages
+│ │ ├── App.js # App entry
+│ │ └── index.js # React root
+│ ├── package.json # Client dependencies and scripts
+│ └── build/ # Production build (after npm run build)
+│
+├── server/ # Node + Express backend
+│ ├── config/ # Database configuration
+│ ├── controllers/ # Route handlers
+│ ├── middleware/ # Auth middleware
+│ ├── models/ # Mongoose models (Customer, Job, Technician)
+│ ├── routes/ # API route definitions
+│ ├── utils/ # Utility functions (e.g., pincode-city mapping)
+│ ├── .env # Environment variables
+│ ├── index.js # Express app entry point
+│ └── package.json # Server dependencies and scripts
+│
+└── README.md # Project documentation
+```
 
 ---
 
