@@ -1,0 +1,9 @@
+# Ignore node_modules
+client/node_modules/
+server/node_modules/
+
+# Ignore build if not deploying static
+client/build/
+
+# Ignore environment secrets
+server/.env
