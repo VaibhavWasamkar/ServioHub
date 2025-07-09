@@ -1,4 +1,4 @@
-# 🛠 ServioHub: Your trusted hub for local service jobs
+# 🛠 ServioHub: Your Trusted Hub for Local Service Jobs
 
 **ServioHub** is a full-stack service platform that connects local customers with skilled technicians across 25 categories — like electricians, plumbers, AC repair, and more. Built using **React**, **Node.js**, **Express**, and **MongoDB**, it supports authentication, job posting, technician assignment, feedback, and address management.
 
@@ -46,20 +46,21 @@
 ## Folder Structure
 
 ServioHub/
-├── client/ # React frontend
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── context/
-│ │ ├── pages/
-│ │ └── App.js, index.js
-├── server/ # Node.js backend
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── middleware/
-│ ├── config/
-│ └── index.js
+  client/ # React frontend
+    public/
+    src/
+      components/
+        context/
+        pages/
+    App.js, index.js
+
+server/ # Node.js backend
+  controllers/
+  models/
+  routes/
+  middleware/
+  config/
+  index.js
 
 ---
 
